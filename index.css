@@ -1,0 +1,1030 @@
+                                                                        * {
+                                                                margin: 0;
+                                                                padding: 0;
+                                                                box-sizing: border-box;
+                                                                font-family: Arial, sans-serif;
+                                                                scroll-behavior: smooth;
+                                                                body {
+                                                                    background-color: #f5f5f5;
+                                                                    text-align: center;
+                                                                }
+                                                                nav {
+                                                                    background-color: #333;
+                                                                    padding: 15px 0;
+                                                                    text-align: center;
+                                                                    position: fixed;
+                                                                    width: 100%;
+                                                                    top: 0;
+                                                                    left: 0;
+                                                                    z-index: 1000;
+                                                                    transition: background 0.3s;
+                                                                }
+                                                                nav a {
+                                                                    color: white;
+                                                                    text-decoration: none;
+                                                                    margin: 0 15px;
+                                                                    font-size: 18px;
+                                                                    font-weight: bold;
+                                                                    transition: 0.3s;
+                                                                }
+                                                                nav a:hover {
+                                                                    color: #ffcc00;
+                                                                }
+                                                                .teachers {
+                                                                    display: flex;
+                                                                    flex-wrap: wrap;
+                                                                    justify-content: center;
+                                                                    gap: 20px;
+                                                                    padding: 100px 20px 50px;
+                                                                }
+                                                                .teacher-card {
+                                                                    background: white;
+                                                                    border-radius: 10px;
+                                                                    padding: 20px;
+                                                                    text-align: center;
+                                                                    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+                                                                    width: 220px;
+                                                                    transition: transform 0.3s, box-shadow 0.3s;
+                                                                }
+                                                                .teacher-card:hover {
+                                                                    transform: scale(1.05);
+                                                                    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+                                                                }
+                                                                .teacher-card img {
+                                                                    width: 120px;
+                                                                    height: 120px;
+                                                                    border-radius: 50%;
+                                                                    object-fit: cover;
+                                                                    border: 4px solid #333;
+                                                                }
+                                                                .teacher-card h3 {
+                                                                    margin-top: 10px;
+                                                                    color: #333;
+                                                                }
+                                                                .section {
+                                                                    padding: 100px 50px;
+                                                                }
+                                                                button {
+                                                                    padding: 10px 20px;
+                                                                    background-color: #333;
+                                                                    color: white;
+                                                                    border: none;
+                                                                    cursor: pointer;
+                                                                    transition: 0.3s;
+                                                                }
+                                                                button:hover {
+                                                                    background-color: #ffcc00;
+                                                                    color: #333;
+                                                                }
+                                                                body {
+                                                                    font-family: Arial, sans-serif;
+                                                                    margin: 0;
+                                                                    padding: 0;
+                                                                    background-color: #f4f4f4;
+                                                                }
+                                                                header {
+                                                                    background-color: #ff6600;
+                                                                    color: white;
+                                                                    text-align: center;
+                                                                    padding: 30px;
+                                                                    margin: 20px;
+                                                                    font-size: 40px;
+                                                                    font-weight: bold;
+                                                                    box-shadow: 20px 4px 10px rgba(0, 0, 0, 0.3);
+                                                                }
+                                                                .container {
+                                                                    width: 80%;
+                                                                    margin: auto;
+                                                                    padding: 20px;
+                                                                    background: white;
+                                                                    box-shadow: 0px 0px 15px rgba(220, 34, 34, 0.2);
+                                                                    border-radius: 10px;
+                                                                    margin-top: 20px;
+                                                                }
+                                                                h2 {
+                                                                    color: #f1ebe7;
+                                                                    text-align: center;
+                                                                    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+                                                                }
+                                                                p {
+                                                                    font-size: 18px;
+                                                                    line-height: 1.8;
+                                                                    text-align: justify;
+                                                                }
+                                                                .contact {
+                                                                    text-align: center;
+                                                                    margin-top: 20px;
+                                                                    font-size: 20px;
+                                                                    font-weight: bold;
+                                                                }
+                                                                .contact a {
+                                                                    /* color: #52ee09; */
+                                                                    text-decoration: none;
+                                                                }
+                                                                .features,
+                                                                .about,
+                                                                .vision {
+                                                                    padding: 15px;
+                                                                    background: #ff8d12;
+                                                                    border-radius: 10px;
+                                                                    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+                                                                    margin-top: 20px;
+                                                                }
+                                                                body {
+                                                                    font-family: Arial, sans-serif;
+                                                                    margin: 20px;
+                                                                    background-color: #2c0505;
+                                                                }
+                                                                .container {
+                                                                    max-width: 900px;
+                                                                    margin: auto;
+                                                                    background-color: white;
+                                                                    padding: 20px;
+                                                                    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+                                                                    border-radius: 10px;
+                                                                }
+                                                                h2 {
+                                                                    text-align: center;
+                                                                    color: #f1f2f1;
+                                                                    margin-bottom: 30px;
+                                                                }
+                                                                .box {
+                                                                    border: 2px solid #deeadf;
+                                                                    padding: 20px;
+                                                                    margin-bottom: 20px;
+                                                                    border-radius: 8px;
+                                                                    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+                                                                    background-color: #ffffff;
+                                                                }
+                                                                .box h3 {
+                                                                    text-align: center;
+                                                                    color: #4CAF50;
+                                                                }
+                                                                .subject {
+                                                                    margin-top: 10px;
+                                                                }
+                                                                .subject h4 {
+                                                                    color: #333;
+                                                                    margin-bottom: 10px;
+                                                                }
+                                                                .subject h5 {
+                                                                    color: #555;
+                                                                    margin-bottom: 5px;
+                                                                }
+                                                                .download-btn {
+                                                                    background-color: #4CAF50;
+                                                                    color: white;
+                                                                    padding: 10px 20px;
+                                                                    text-decoration: none;
+                                                                    border-radius: 5px;
+                                                                    display: inline-block;
+                                                                    margin-bottom: 10px;
+                                                                    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+                                                                }
+                                                                .download-btn:hover {
+                                                                    background-color: #2816e8;
+                                                                    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+                                                                }
+                                                                .download-btn:active {
+                                                                    background-color: #388e3c;
+                                                                    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+                                                                }
+                                                                /* Image Slider */
+                                                                .slider-container {
+                                                                    width: 80%;
+                                                                    max-width: 800px;
+                                                                    overflow: hidden;
+                                                                    margin: 100px auto;
+                                                                    border-radius: 10px;
+                                                                    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+                                                                    position: relative;
+                                                                    padding: 0%;
+                                                                    /* margin-right: 5px; */
+                                                                    align-items: center;
+                                                                }
+                                                                .slider {
+                                                                    display: flex;
+                                                                    transition: transform 1s ease-in-out;
+                                                                }
+                                                                .slide {
+                                                                    min-width: 100%;
+                                                                    border-radius: 10px;
+                                                                    overflow: auto;
+                                                                }
+                                                                .slide img {
+                                                                    width: 100%;
+                                                                    height: 400px;
+                                                                    object-fit: cover;
+                                                                }
+                                                                .btn {
+                                                                    position: absolute;
+                                                                    top: 50%;
+                                                                    transform: translateY(-50%);
+                                                                    background-color: rgba(0, 0, 0, 0.5);
+                                                                    color: white;
+                                                                    border: none;
+                                                                    padding: 10px 15px;
+                                                                    cursor: pointer;
+                                                                    border-radius: 5px;
+                                                                    z-index: 100;
+                                                                }
+                                                                .prev {
+                                                                    left: 10px;
+                                                                }
+                                                                .next {
+                                                                    right: 10px;
+                                                                }
+                                                                #chat {
+                                                                    margin: 0;
+                                                                    padding: 0px;
+                                                                }
+                                                                #chatButton {
+                                                                    position: fixed;
+                                                                    bottom: 20px;
+                                                                    right: 20px;
+                                                                    padding: 15px 25px;
+                                                                    background-color: #15e041;
+                                                                    color: white;
+                                                                    border: none;
+                                                                    border-radius: 25px;
+                                                                    cursor: pointer;
+                                                                    box-shadow: 0 4px 8px white;
+                                                                }
+                                                                #chatContainer {
+                                                                    position: fixed;
+                                                                    bottom: 20px;
+                                                                    right: 20px;
+                                                                    width: 350px;
+                                                                    height: 500px;
+                                                                    background-color: white;
+                                                                    border-radius: 10px;
+                                                                    box-shadow: 0 4px 8px white;
+                                                                    flex-direction: column;
+                                                                }
+                                                                .chat-header {
+                                                                    padding: 15px;
+                                                                    background-color: #de177a;
+                                                                    color: white;
+                                                                    border-radius: 10px 10px 0 0;
+                                                                    display: flex;
+                                                                    justify-content: space-between;
+                                                                    align-items: center;
+                                                                }
+                                                                #minimizeBtn {
+                                                                    background: none;
+                                                                    border: none;
+                                                                    color: white;
+                                                                    cursor: pointer;
+                                                                    font-size: 1.2em;
+                                                                }
+                                                                #chatMessages {
+                                                                    flex: 1;
+                                                                    padding: 15px;
+                                                                    overflow-y: auto;
+                                                                    background-color: #f8f9fa;
+                                                                }
+                                                                .message {
+                                                                    margin-bottom: 10px;
+                                                                    padding: 8px 12px;
+                                                                    border-radius: 15px;
+                                                                    max-width: 80%;
+                                                                }
+                                                                .user-message {
+                                                                    background-color: #a6b8cc;
+                                                                    color: white;
+                                                                    margin-left: auto;
+                                                                }
+                                                                .bot-message {
+                                                                    background-color: #e9ecef;
+                                                                    color: black;
+                                                                    margin-right: auto;
+                                                                }
+                                                                #inputGroup {
+                                                                    padding: 15px;
+                                                                    background-color: white;
+                                                                    display: flex;
+                                                                    gap: 10px;
+                                                                    border-top: 1px solid #dee2e6;
+                                                                }
+                                                                #userInput {
+                                                                    flex: 1;
+                                                                    padding: 10px;
+                                                                    border: 1px solid #dee2e6;
+                                                                    border-radius: 20px;
+                                                                    outline: none;
+                                                                }
+                                                                #sendBtn {
+                                                                    padding: 10px 20px;
+                                                                    background-color: #007bff;
+                                                                    color: white;
+                                                                    border: none;
+                                                                    border-radius: 20px;
+                                                                    cursor: pointer;
+                                                                }
+                                                                #about {
+                                                                    font-family: Arial, sans-serif;
+                                                                    background-color: #f4f4f4;
+                                                                    margin: 0;
+                                                                    padding: 0;
+                                                                    display: flex;
+                                                                    justify-content: center;
+                                                                    align-items: center;
+                                                                    min-height: 100vh;
+                                                                }
+                                                                .container {
+                                                                    width: 90%;
+                                                                    max-width: 800px;
+                                                                    background: white;
+                                                                    padding: 20px;
+                                                                    box-shadow: 0px 10px 30px rgba(240, 238, 238, 0.949);
+                                                                    border-radius: 15px;
+                                                                    text-align: center;
+                                                                }
+                                                                h1,
+                                                                h2 {
+                                                                    color: #eee6e6;
+                                                                }
+                                                                ul {
+                                                                    list-style-type: none;
+                                                                    padding: 0;
+                                                                }
+                                                                li {
+                                                                    background: #ffcc00;
+                                                                    margin: 10px 0;
+                                                                    padding: 10px;
+                                                                    border-radius: 5px;
+                                                                    font-weight: bold;
+                                                                    box-shadow: 3px 3px 10px rgba(16, 243, 61, 0.922);
+                                                                }
+                                                                .contact {
+                                                                    margin-top: 20px;
+                                                                    font-size: 18px;
+                                                                    font-weight: bold;
+                                                                }
+                                                                .contact a {
+                                                                    text-decoration: none;
+                                                                    color: #007bff;
+                                                                }
+                                                                .contact a {
+                                                                    margin: 0;
+                                                                    padding: 0;
+                                                                    background: #121212;
+                                                                    font-family: Arial, sans-serif;
+                                                                }
+                                                                .chat-toggle {
+                                                                    position: fixed;
+                                                                    bottom: 20px;
+                                                                    right: 20px;
+                                                                    background-color: #7ccd20;
+                                                                    border: none;
+                                                                    border-radius: 50%;
+                                                                    width: 60px;
+                                                                    height: 60px;
+                                                                    cursor: pointer;
+                                                                    z-index: 9999;
+                                                                    box-shadow: 0 4px 8px rgba(169, 210, 1, 0.3);
+                                                                }
+                                                                .chat-toggle img {
+                                                                    width: 30px;
+                                                                    height: 30px;
+                                                                }
+                                                                .chat-container {
+                                                                    position: fixed;
+                                                                    bottom: 90px;
+                                                                    right: 20px;
+                                                                    width: 100%;
+                                                                    max-width: 400px;
+                                                                    background-color: #0a52ee;
+                                                                    border-radius: 10px;
+                                                                    box-shadow: 0 0 10px rgba(237, 230, 230, 0.982);
+                                                                    overflow: hidden;
+                                                                    display: none;
+                                                                    flex-direction: column;
+                                                                    height: 90vh;
+                                                                    z-index: 9998;
+                                                                }
+                                                                .chat-header {
+                                                                    background-color: #f8eeee;
+                                                                    color: #fff;
+                                                                    padding: 15px;
+                                                                    text-align: center;
+                                                                }
+                                                                .chat-header h1 {
+                                                                    margin: 0;
+                                                                    font-size: 1.5rem;
+                                                                }
+                                                                .chat-messages {
+                                                                    flex-grow: 1;
+                                                                    padding: 20px;
+                                                                    overflow-y: auto;
+                                                                    color: #e0e0e0;
+                                                                }
+                                                                .message {
+                                                                    display: flex;
+                                                                    align-items: flex-start;
+                                                                    margin-bottom: 15px;
+                                                                }
+                                                                .message-content {
+                                                                    padding: 10px;
+                                                                    border-radius: 5px;
+                                                                    max-width: 70%;
+                                                                }
+                                                                .user-message {
+                                                                    flex-direction: row-reverse;
+                                                                }
+                                                                .user-message .message-content {
+                                                                    background-color: #030f04e6;
+                                                                    margin-right: 10px;
+                                                                }
+                                                                .bot-message .message-content {
+                                                                    background-color: #fffafa;
+                                                                    margin-left: 10px;
+                                                                }
+                                                                .profile-image {
+                                                                    width: 30px;
+                                                                    height: 30px;
+                                                                    border-radius: 50%;
+                                                                    object-fit: cover;
+                                                                }
+                                                                .chat-input-container {
+                                                                    display: flex;
+                                                                    padding: 15px;
+                                                                    background-color: #2a2a2a;
+                                                                }
+                                                                #user-input {
+                                                                    flex-grow: 1;
+                                                                    padding: 10px;
+                                                                    border: 1px solid #4a4a4a;
+                                                                    border-radius: 5px;
+                                                                    font-size: 1rem;
+                                                                    background-color: #3a3a3a;
+                                                                    color: #e0e0e0;
+                                                                    outline: none;
+                                                                }
+                                                                #send-button {
+                                                                    padding: 10px 20px;
+                                                                    background-color: #4a90e2;
+                                                                    color: #fff;
+                                                                    border: none;
+                                                                    border-radius: 5px;
+                                                                    margin-left: 10px;
+                                                                    cursor: pointer;
+                                                                    font-size: 1rem;
+                                                                }
+                                                                #send-button:hover {
+                                                                    background-color: #3a7bc8;
+                                                                }
+                                                                #send-button:disabled {
+                                                                    background-color: #2a5a8a;
+                                                                    cursor: not-allowed;
+                                                                }
+                                                                * {
+                                                                    margin: 0;
+                                                                    padding: 0;
+                                                                    box-sizing: border-box;
+                                                                    font-family: Arial, sans-serif;
+                                                                    scroll-behavior: smooth;
+                                                                    body {
+                                                                        background-color: #f5f5f5;
+                                                                        text-align: center;
+                                                                    }
+                                                                    nav {
+                                                                        background-color: #333;
+                                                                        padding: 15px 0;
+                                                                        text-align: center;
+                                                                        position: fixed;
+                                                                        width: 100%;
+                                                                        top: 0;
+                                                                        left: 0;
+                                                                        z-index: 1000;
+                                                                        transition: background 0.3s;
+                                                                    }
+                                                                    nav a {
+                                                                        color: white;
+                                                                        text-decoration: none;
+                                                                        margin: 0 15px;
+                                                                        font-size: 18px;
+                                                                        font-weight: bold;
+                                                                        transition: 0.3s;
+                                                                    }
+                                                                    nav a:hover {
+                                                                        color: #ffcc00;
+                                                                    }
+                                                                    .teachers {
+                                                                        display: flex;
+                                                                        flex-wrap: wrap;
+                                                                        justify-content: center;
+                                                                        gap: 20px;
+                                                                        padding: 100px 20px 50px;
+                                                                    }
+                                                                    .teacher-card {
+                                                                        background: white;
+                                                                        border-radius: 10px;
+                                                                        padding: 20px;
+                                                                        text-align: center;
+                                                                        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+                                                                        width: 220px;
+                                                                        transition: transform 0.3s, box-shadow 0.3s;
+                                                                    }
+                                                                    .teacher-card:hover {
+                                                                        transform: scale(1.05);
+                                                                        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+                                                                    }
+                                                                    .teacher-card img {
+                                                                        width: 120px;
+                                                                        height: 120px;
+                                                                        border-radius: 50%;
+                                                                        object-fit: cover;
+                                                                        border: 4px solid #333;
+                                                                    }
+                                                                    .teacher-card h3 {
+                                                                        margin-top: 10px;
+                                                                        color: #333;
+                                                                    }
+                                                                    .section {
+                                                                        padding: 100px 50px;
+                                                                    }
+                                                                    button {
+                                                                        padding: 10px 20px;
+                                                                        background-color: #333;
+                                                                        color: white;
+                                                                        border: none;
+                                                                        cursor: pointer;
+                                                                        transition: 0.3s;
+                                                                    }
+                                                                    button:hover {
+                                                                        background-color: #ffcc00;
+                                                                        color: #333;
+                                                                    }
+                                                                    body {
+                                                                        font-family: Arial, sans-serif;
+                                                                        margin: 0;
+                                                                        padding: 0;
+                                                                        background-color: #f4f4f4;
+                                                                    }
+                                                                    header {
+                                                                        background-color: #ff6600;
+                                                                        color: white;
+                                                                        text-align: center;
+                                                                        padding: 30px;
+                                                                        margin: 20px;
+                                                                        font-size: 40px;
+                                                                        font-weight: bold;
+                                                                        box-shadow: 20px 4px 10px rgba(0, 0, 0, 0.3);
+                                                                    }
+                                                                    .container {
+                                                                        width: 80%;
+                                                                        margin: auto;
+                                                                        padding: 20px;
+                                                                        background: white;
+                                                                        box-shadow: 0px 0px 15px rgba(220, 34, 34, 0.2);
+                                                                        border-radius: 10px;
+                                                                        margin-top: 20px;
+                                                                    }
+                                                                    h2 {
+                                                                        color: #f1ebe7;
+                                                                        text-align: center;
+                                                                        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+                                                                    }
+                                                                    p {
+                                                                        font-size: 18px;
+                                                                        line-height: 1.8;
+                                                                        text-align: justify;
+                                                                    }
+                                                                    .contact {
+                                                                        text-align: center;
+                                                                        margin-top: 20px;
+                                                                        font-size: 20px;
+                                                                        font-weight: bold;
+                                                                    }
+                                                                    .contact a {
+                                                                        color: #52ee09;
+                                                                        text-decoration: none;
+                                                                    }
+                                                                    .features,
+                                                                    .about,
+                                                                    .vision {
+                                                                        padding: 15px;
+                                                                        background: #ff8d12;
+                                                                        border-radius: 10px;
+                                                                        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+                                                                        margin-top: 20px;
+                                                                    }
+                                                                    body {
+                                                                        font-family: Arial, sans-serif;
+                                                                        margin: 20px;
+                                                                        background-color: #2c0505;
+                                                                    }
+                                                                    .container {
+                                                                        max-width: 900px;
+                                                                        margin: auto;
+                                                                        background-color: white;
+                                                                        padding: 20px;
+                                                                        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+                                                                        border-radius: 10px;
+                                                                    }
+                                                                    h2 {
+                                                                        text-align: center;
+                                                                        color: #f1f2f1;
+                                                                        margin-bottom: 30px;
+                                                                    }
+                                                                    .box {
+                                                                        border: 2px solid #deeadf;
+                                                                        padding: 20px;
+                                                                        margin-bottom: 20px;
+                                                                        border-radius: 8px;
+                                                                        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+                                                                        background-color: #ffffff;
+                                                                    }
+                                                                    .box h3 {
+                                                                        text-align: center;
+                                                                        color: #4CAF50;
+                                                                    }
+                                                                    .subject {
+                                                                        margin-top: 10px;
+                                                                    }
+                                                                    .subject h4 {
+                                                                        color: #333;
+                                                                        margin-bottom: 10px;
+                                                                    }
+                                                                    .subject h5 {
+                                                                        color: #555;
+                                                                        margin-bottom: 5px;
+                                                                    }
+                                                                    .download-btn {
+                                                                        background-color: #4CAF50;
+                                                                        color: white;
+                                                                        padding: 10px 20px;
+                                                                        text-decoration: none;
+                                                                        border-radius: 5px;
+                                                                        display: inline-block;
+                                                                        margin-bottom: 10px;
+                                                                        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+                                                                    }
+                                                                    .download-btn:hover {
+                                                                        background-color: #2816e8;
+                                                                        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+                                                                    }
+                                                                    .download-btn:active {
+                                                                        background-color: #388e3c;
+                                                                        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+                                                                    }
+                                                                    /* Image Slider */
+                                                                    .slider-container {
+                                                                        width: 80%;
+                                                                        max-width: 800px;
+                                                                        overflow: hidden;
+                                                                        margin: 100px auto;
+                                                                        border-radius: 10px;
+                                                                        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+                                                                        position: relative;
+                                                                        padding: 0%;
+                                                                        /* margin-right: 5px; */
+                                                                        align-items: center;
+                                                                    }
+                                                                    .slider {
+                                                                        display: flex;
+                                                                        transition: transform 1s ease-in-out;
+                                                                    }
+                                                                    .slide {
+                                                                        min-width: 100%;
+                                                                        border-radius: 10px;
+                                                                        overflow: auto;
+                                                                    }
+                                                                    .slide img {
+                                                                        width: 100%;
+                                                                        height: 400px;
+                                                                        object-fit: cover;
+                                                                    }
+                                                                    .btn {
+                                                                        position: absolute;
+                                                                        top: 50%;
+                                                                        transform: translateY(-50%);
+                                                                        background-color: rgba(0, 0, 0, 0.5);
+                                                                        color: white;
+                                                                        border: none;
+                                                                        padding: 10px 15px;
+                                                                        cursor: pointer;
+                                                                        border-radius: 5px;
+                                                                        z-index: 100;
+                                                                    }
+                                                                    .prev {
+                                                                        left: 10px;
+                                                                    }
+                                                                    .next {
+                                                                        right: 10px;
+                                                                    }
+                                                                    #chat {
+                                                                        margin: 0;
+                                                                        padding: 0px;
+                                                                    }
+                                                                    #chatButton {
+                                                                        position: fixed;
+                                                                        bottom: 20px;
+                                                                        right: 20px;
+                                                                        padding: 15px 25px;
+                                                                        background-color: #15e041;
+                                                                        color: white;
+                                                                        border: none;
+                                                                        border-radius: 25px;
+                                                                        cursor: pointer;
+                                                                        box-shadow: 0 4px 8px white;
+                                                                    }
+                                                                    #chatContainer {
+                                                                        position: fixed;
+                                                                        bottom: 20px;
+                                                                        right: 20px;
+                                                                        width: px;
+                                                                        height: 500px;
+                                                                        background-color: white;
+                                                                        border-radius: 10px;
+                                                                        box-shadow: 0 4px 8px white;
+                                                                        flex-direction: column;
+                                                                    }
+                                                                    .chat-header {
+                                                                        padding: 15px;
+                                                                        background-color: #de177a;
+                                                                        color: white;
+                                                                        border-radius: 10px 10px 0 0;
+                                                                        display: flex;
+                                                                        justify-content: space-between;
+                                                                        align-items: center;
+                                                                    }
+                                                                    #minimizeBtn {
+                                                                        background: none;
+                                                                        border: none;
+                                                                        color: white;
+                                                                        cursor: pointer;
+                                                                        font-size: 1.2em;
+                                                                    }
+                                                                    #chatMessages {
+                                                                        flex: 1;
+                                                                        padding: 15px;
+                                                                        overflow-y: auto;
+                                                                        background-color: #f8f9fa;
+                                                                    }
+                                                                    .message {
+                                                                        margin-bottom: 10px;
+                                                                        padding: 8px 12px;
+                                                                        border-radius: 15px;
+                                                                        max-width: 80%;
+                                                                    }
+                                                                    .user-message {
+                                                                        background-color: #a6b8cc;
+                                                                        color: white;
+                                                                        margin-left: auto;
+                                                                    }
+                                                                    .bot-message {
+                                                                        background-color: #e9ecef;
+                                                                        color: black;
+                                                                        margin-right: auto;
+                                                                    }
+                                                                    #inputGroup {
+                                                                        padding: 15px;
+                                                                        background-color: white;
+                                                                        display: flex;
+                                                                        gap: 10px;
+                                                                        border-top: 1px solid #dee2e6;
+                                                                    }
+                                                                    #userInput {
+                                                                        flex: 1;
+                                                                        padding: 10px;
+                                                                        border: 1px solid #dee2e6;
+                                                                        border-radius: 20px;
+                                                                        outline: none;
+                                                                    }
+                                                                    #sendBtn {
+                                                                        padding: 10px 20px;
+                                                                        background-color: #007bff;
+                                                                        color: white;
+                                                                        border: none;
+                                                                        border-radius: 20px;
+                                                                        cursor: pointer;
+                                                                    }
+                                                                    #about {
+                                                                        font-family: Arial, sans-serif;
+                                                                        background-color: #f4f4f4;
+                                                                        margin: 0;
+                                                                        padding: 0;
+                                                                        display: flex;
+                                                                        justify-content: center;
+                                                                        align-items: center;
+                                                                        min-height: 100vh;
+                                                                    }
+                                                                    .container {
+                                                                        width: 90%;
+                                                                        max-width: 800px;
+                                                                        background: white;
+                                                                        padding: 20px;
+                                                                        box-shadow: 0px 10px 30px rgba(240, 238, 238, 0.949);
+                                                                        border-radius: 15px;
+                                                                        text-align: center;
+                                                                    }
+                                                                    h1,
+                                                                    h2 {
+                                                                        color: #eee6e6;
+                                                                    }
+                                                                    ul {
+                                                                        list-style-type: none;
+                                                                        padding: 0;
+                                                                    }
+                                                                    li {
+                                                                        background: #ffcc00;
+                                                                        margin: 10px 0;
+                                                                        padding: 10px;
+                                                                        border-radius: 5px;
+                                                                        font-weight: bold;
+                                                                        box-shadow: 3px 3px 10px rgba(16, 243, 61, 0.922);
+                                                                    }
+                                                                    .contact {
+                                                                        margin-top: 20px;
+                                                                        font-size: 18px;
+                                                                        font-weight: bold;
+                                                                    }
+                                                                    .contact a {
+                                                                        text-decoration: none;
+                                                                        color: #007bff;
+                                                                    }
+                                                                    .contact a {
+                                                                        margin: 0;
+                                                                        padding: 0;
+                                                                        background: #121212;
+                                                                        font-family: Arial, sans-serif;
+                                                                    }
+                                                                    .chat-toggle {
+                                                                        position: fixed;
+                                                                        bottom: 20px;
+                                                                        right: 20px;
+                                                                        background-color: #7ccd20;
+                                                                        border: none;
+                                                                        border-radius: 50%;
+                                                                        width: 60px;
+                                                                        height: 60px;
+                                                                        cursor: pointer;
+                                                                        z-index: 9999;
+                                                                        box-shadow: 0 4px 8px rgba(169, 210, 1, 0.3);
+                                                                    }
+                                                                    .chat-toggle img {
+                                                                        width: 30px;
+                                                                        height: 30px;
+                                                                    }
+                                                                    .chat-container {
+                                                                        position: fixed;
+                                                                        bottom: 90px;
+                                                                        right: 20px;
+                                                                        width: 100%;
+                                                                        max-width: 400px;
+                                                                        background-color: #0a52ee;
+                                                                        border-radius: 10px;
+                                                                        box-shadow: 0 0 10px rgba(237, 230, 230, 0.982);
+                                                                        overflow: hidden;
+                                                                        display: none;
+                                                                        flex-direction: column;
+                                                                        height: 90vh;
+                                                                        z-index: 9998;
+                                                                    }
+                                                                    .chat-header {
+                                                                        background-color: #f8eeee;
+                                                                        color: #fff;
+                                                                        padding: 15px;
+                                                                        text-align: center;
+                                                                    }
+                                                                    .chat-header h1 {
+                                                                        margin: 0;
+                                                                        font-size: 1.5rem;
+                                                                    }
+                                                                    .chat-messages {
+                                                                        flex-grow: 1;
+                                                                        padding: 20px;
+                                                                        overflow-y: auto;
+                                                                        color: #e0e0e0;
+                                                                    }
+                                                                    .message {
+                                                                        display: flex;
+                                                                        align-items: flex-start;
+                                                                        margin-bottom: 15px;
+                                                                    }
+                                                                    .message-content {
+                                                                        padding: 10px;
+                                                                        border-radius: 5px;
+                                                                        max-width: 70%;
+                                                                    }
+                                                                    .user-message {
+                                                                        flex-direction: row-reverse;
+                                                                    }
+                                                                    .user-message .message-content {
+                                                                        background-color: #030f04e6;
+                                                                        margin-right: 10px;
+                                                                    }
+                                                                    .bot-message .message-content {
+                                                                        background-color: #fffafa;
+                                                                        margin-left: 10px;
+                                                                    }
+                                                                    .profile-image {
+                                                                        width: 30px;
+                                                                        height: 30px;
+                                                                        border-radius: 50%;
+                                                                        object-fit: cover;
+                                                                    }
+                                                                    .chat-input-container {
+                                                                        display: flex;
+                                                                        padding: 15px;
+                                                                        background-color: #2a2a2a;
+                                                                    }
+                                                                    #user-input {
+                                                                        flex-grow: 1;
+                                                                        padding: 10px;
+                                                                        border: 1px solid #4a4a4a;
+                                                                        border-radius: 5px;
+                                                                        font-size: 1rem;
+                                                                        background-color: #3a3a3a;
+                                                                        color: #e0e0e0;
+                                                                        outline: none;
+                                                                    }
+                                                                    #send-button {
+                                                                        padding: 10px 20px;
+                                                                        background-color: #4a90e2;
+                                                                        color: #fff;
+                                                                        border: none;
+                                                                        border-radius: 5px;
+                                                                        margin-left: 10px;
+                                                                        cursor: pointer;
+                                                                        font-size: 1rem;
+                                                                    }
+                                                                    #send-button:hover {
+                                                                        background-color: #3a7bc8;
+                                                                    }
+                                                                    #send-button:disabled {
+                                                                        background-color: #2a5a8a;
+                                                                        cursor: not-allowed;
+                                                                    }
+                                                                    /* Center the About Us section */
+                                                                    #about {
+                                                                        font-family: Arial, sans-serif;
+                                                                        background-color: #f4f4f4;
+                                                                        margin: 0;
+                                                                        padding: 50px 0;
+                                                                        /* Add padding for spacing */
+                                                                        display: flex;
+                                                                        justify-content: center;
+                                                                        align-items: center;
+                                                                        min-height: 100vh;
+                                                                        text-align: center;
+                                                                        /* Center text */
+                                                                        animation: fadeIn 1.5s ease-in-out;
+                                                                        /* Add fade-in animation */
+                                                                    }
+                                                                    #about .container {
+                                                                        width: 90%;
+                                                                        max-width: 800px;
+                                                                        background: white;
+                                                                        padding: 30px;
+                                                                        box-shadow: 0px 10px 30px rgba(240, 238, 238, 0.949);
+                                                                        border-radius: 15px;
+                                                                        transition: transform 0.3s, box-shadow 0.3s;
+                                                                        /* Add hover animation */
+                                                                    }
+                                                                    #about .container:hover {
+                                                                        transform: scale(1.05);
+                                                                        /* Slight zoom effect */
+                                                                        box-shadow: 0px 15px 40px rgba(0, 0, 0, 0.2);
+                                                                        /* Enhanced shadow */
+                                                                    }
+                                                                    #about h1,
+                                                                    #about h2 {
+                                                                        color: #333;
+                                                                        /* Adjust text color */
+                                                                        margin-bottom: 20px;
+                                                                        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+                                                                        /* Add subtle shadow */
+                                                                    }
+                                                                    #about ul {
+                                                                        list-style-type: none;
+                                                                        padding: 0;
+                                                                    }
+                                                                    #about li {
+                                                                        background: #ffcc00;
+                                                                        margin: 10px 0;
+                                                                        padding: 10px;
+                                                                        border-radius: 5px;
+                                                                        font-weight: bold;
+                                                                        box-shadow: 3px 3px 10px rgba(16, 243, 61, 0.922);
+                                                                        transition: transform 0.3s, background-color 0.3s;
+                                                                        /* Add hover animation */
+                                                                    }
+                                                                    #about li:hover {
+                                                                        transform: translateY(-5px);
+                                                                        /* Lift effect */
+                                                                        background-color: #ffd633;
+                                                                        /* Slightly lighter yellow */
+                                                                    }
+                                                                    /* Fade-in animation */
+                                                                    @keyframes fadeIn {
+                                                                        from {
+                                                                            opacity: 0;
+                                                                            transform: translateY(20px);
+                                                                        }
+                                                                        to {
+                                                                            opacity: 1;
+                                                                            transform: translateY(0);
+                                                                        }
